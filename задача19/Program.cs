@@ -5,7 +5,7 @@
 */
 Console.WriteLine("введите число");
 int number=Convert.ToInt32(Console.ReadLine());
-int count=0, chislo=number, flag=0;//подсчет цифр в числе
+int count=0, chislo=number, flag=0;
 
 while (chislo>0)
 {
@@ -31,7 +31,7 @@ for (int i=0; i<=count/2; i++)
     {
         flag=0;
     }
-    
+
     break;
 }
 if (flag==0)
